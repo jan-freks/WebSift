@@ -9,6 +9,15 @@ WebSift is a powerful ethical hacking and OSINT (Open-Source Intelligence) tool 
 - Automatically checks and installs missing dependencies (curl, grep, wget).
 - Compatible with **Termux** and **Linux distributions**
 
+## Note
+
+This tool may show **wrong phone numbers** because phone number scraping is **not fully accurate**.  
+I already made a Python tool called **WebExtractor**, which gives **accurate phone numbers**.
+
+WebSift works best for scraping **emails** and **links**, but **WebExtractor gives accurate results for everything, including links, phone numbers, and emails**.
+
+**WebExtractor repo link:** [WebExtractor](https://github.com/s-r-e-e-r-a-j/WebExtractor.git)
+
 ## Dependencies
 WebSift automatically checks for and installs the following dependencies if they are missing:
 
